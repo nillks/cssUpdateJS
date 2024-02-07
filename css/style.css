@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  font-family: 'Sixtyfour', sans-serif;
+  font-size: 1.5em;
+  color: #f8f5f5;
+}
+
+.header,
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(161, 39, 218, 0.7);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: auto;
+}
