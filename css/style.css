@@ -20,16 +20,23 @@ body {
   flex-direction: column;
   justify-content: space-between;
   background-size: cover;
-  font-family: 'Sixtyfour', sans-serif;
+  font-family: "Sixtyfour", sans-serif;
   font-size: 1.5em;
-  color: #f8f5f5;
+  color: #bb0000ab;
+}
+
+.zamay {
+  display: block;
+  background-color: pink;
+  padding: 20px;
+  filter: blur(20px);
 }
 
 .header,
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(161, 39, 218, 0.7);
+  background-color: #e66465;
 }
 
 .container {
