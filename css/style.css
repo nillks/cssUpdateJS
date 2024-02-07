@@ -14,22 +14,40 @@ a {
   text-decoration: none;
 }
 
+:root {
+  --var-padding: 0px;
+  --var-blur: blur(0px);
+  --var-color: pink;
+}
+
 body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
   justify-content: space-between;
   background-size: cover;
-  font-family: 'Sixtyfour', sans-serif;
+  font-family: "Sixtyfour", sans-serif;
   font-size: 1.5em;
-  color: #f8f5f5;
+  color: #bb0000ab;
+}
+
+.zamay {
+  transition: all .9s;
+  display: block;
+  background-color: var(--var-color);
+  padding: var(--var-padding);
+  filter: var(--var-blur);
+}
+
+.update__title-decoration {
+  color: var(--var-color);
 }
 
 .header,
 footer {
   text-align: center;
   padding: 20px;
-  background-color: rgba(161, 39, 218, 0.7);
+  background-color: #e66465;
 }
 
 .container {
